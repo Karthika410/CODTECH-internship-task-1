@@ -33,4 +33,5 @@ The website includes several sections:
 6. **Ending Section**: 
    - A footer with a copyright notice, stating that all rights are reserved for 2024.
 
+![Screenshot (11)](https://github.com/user-attachments/assets/303df43b-4fb8-41e7-8139-98a2901b6e94)
 
