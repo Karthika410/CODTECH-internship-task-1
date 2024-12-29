@@ -1,0 +1,134 @@
+
+#index.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div class="title">
+            <h1 class="one">My Portfolio</h1>
+            <div class="link">About me  |  Skills  |  Project  |  Contact</div>
+        </div>
+
+
+        <div class="heading">
+            <h1>About Me</h1>
+        </div>
+
+
+        <div class="content">
+            <p>Hi , I am Karthika , I am a Passionate beginner front-end developer eager to create visually appealing
+                and user-friendly websites, with a strong foundation in HTML, CSS, and JavaScript.</p>
+        </div>
+
+
+        <div class="heading">
+            <h1>Skills</h1>
+        </div>
+
+
+        <div class="content">
+            <p>HTML | CSS | JavaScript</p>
+        </div>
+       
+
+        <div class="heading">
+            <h1>Projects</h1>
+        </div>
+
+        <div class="images">
+
+        <div class="image">
+            <img src="PORTFOLIO.png" width="100px">
+            <h5>PORTFOLIO WEBSITE</h5>
+            <p>A simple portfolio website created using HTML and CSS serves as a personal showcase for highlighting your skills, projects, and contact information.</p>
+
+        </div>
+
+
+        <div class="image">
+            <img src="calculator.png" width="100px">
+            <h5>SIMPLE CALCULATOR</h5>
+            <p>A simple calculator app built using HTML and CSS is a user-friendly tool designed to perform arithmetic operations such as addition, subtraction, multiplication, and division.</p>
+        </div>
+
+
+        <div class="image">
+            <img src="https___dev-to-uploads.s3.amazonaws.com_uploads_articles_4msecobqclh4t82qlmdn.png" width="100px">
+            <h5>TO DO LIST APP</h5>
+            <p>A To-Do List App built using HTML and CSS is a simple and user-friendly application designed to help users manage their daily tasks and events efficiently.</p>
+        </div>
+
+    </div>
+
+    <div class="heading">
+        <h1>Contact</h1>
+    </div>
+
+    <div class="content">
+        <p>karthikagandhi410@gamil.com</p>
+    </div>
+
+    <div class="ending">
+        <h5>© 2024 Karthika. All rights reserved.</h5>   
+    </div>
+
+
+
+    </center>
+</body>
+
+</html>
+
+#style.css
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.title {
+    color: white;
+    background-color: black;
+    padding: 30px;
+}
+
+.link{
+    padding-top: 20px;
+}
+
+.heading {
+    padding: 30px;
+}
+
+
+.one {
+    color: white;
+}
+
+
+.image {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 200px;
+    padding: 30px;
+}
+
+.ending {
+    color: #ffffff;
+    background-color: black;
+    padding: 50px;
+    position: relative;
+    top: 40px;
+}
